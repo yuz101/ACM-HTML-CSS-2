@@ -1,0 +1,48 @@
+body {
+    background-image: url('./spotify-hex-colors-gradient-background.png');
+    background-size: cover;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 60px;
+    padding: 60px;
+    color: #FFFF;
+}
+header {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+header img{
+    justify-content: flex-start;
+}
+header * {
+    display: inline;
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}
+img {
+    border-radius: 10px;
+}
+.container {
+    display: flex;
+    align-items: center ;
+    justify-content:flex-start;
+}
+.song-info {
+    color: white;
+    margin: 30px;
+}
+div.name{
+    font-weight: bold;
+    font-size: 80px;
+}
+div.artist{
+    margin-top: 20px;
+    font-size: 20px;
+}
